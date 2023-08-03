@@ -1,0 +1,138 @@
+<!-- https://code-step.com/portfolio1-p2/ -->
+<!-- https://code-step.com/demo/html/portfolio1/# -->
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <title>LPの練習</title>
+    <meta name="description" content="LP練習" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="img/favicon.ico" />
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Sawarabi+Gothic" rel="stylesheet">
+  </head>
+  <body>
+    <!-- ヘッダー -->
+    <header id="header">
+      <h1 class="site-title">
+        <a href="#">
+         MIHOKO ONISHI
+        </a>
+      </h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#profile">Profile</a></li>
+          <li><a href="#memory">Memory</a></li>
+          <li><a href="#works">Work</a></li>
+          <li><a href="#contact">Contact</a></li>
+        <li><a href="https://www.twitter.com/" target="_blank" rel="noopener noreferrer">
+          <img src="./img/twitter.png" alt="instagram" class="icon">
+        </a></li>
+        <li><a href="https://www.facebook.com/mihoko.onishi/" target="_blank" rel="noopener noreferrer">
+            <img src="./img/facebook.png" alt="facebook" class="icon">
+        </a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- メインビジュアル -->
+      <div id="mainvisual">
+        <picture>
+          <source media="(max-width: 600px)" srcset="./img/main-sp.jpg">
+          <img src="img/main-pc.jpg" alt="テキストテキストテキスト">
+        </picture>
+      </div>
+
+      <!-- About -->
+      <section id="about" class="wrapper">
+        <h2 class="sec-title">About</h2>
+        <ul>
+          <li>ひとり一人が自分らしく生きられる社会を実現したい！！</li>
+          <li>現在は、IT企業で採用、育成、組織風土改革が主な業務となります。</li>
+          <li>キャリアコンサルタントとして、学生さんのキャリア支援にも関わっています。</li>
+        </ul>
+        <p></p>
+      </section>
+       <!-- Profile -->
+       <section id="profile" class="wrapper">
+        <h2 class="sec-title">Profile</h2>
+        <dl>
+          <dt>名前</dt>
+          <dd>大西美穂子</dd>
+          <dt>ニックネーム</dt>
+          <dd>みぽりん（最近の若者は知らない・・・）</dd>
+          <dt>出身</dt>
+          <dd>静岡県富士市</dd>
+          <dt>住まい</dt>
+          <dd>東京都中央区</dd>
+          <dt>趣味</dt>
+          <dd>旅行、ゴルフ、温泉、お酒を飲むこと</dd>
+          <dt>性格</dt>
+          <dd>好奇心旺盛、フットワークが軽い</dd>
+          <dt>仕事</dt>
+          <dd>IT企業の人事責任者</dd>
+          <dt>資格</dt>
+          <dd>キャリアコンサルタント、PRプランナー</dd>
+          <dt>学歴</dt>
+          <dd>北海道大学　農学部　農業経済学科</dd>
+          <dd>グロービス経営大学院　経営研究科　経営専攻(MBAプログラム)</dd>
+        </dl>
+      </section>
+
+      <!-- Memory -->
+      <section id="works" class="wrapper">
+        <h2 class="sec-title">Memory</h2>
+        <ul>
+          <li><img src="./img/works1.jpg" alt="work1"></li>
+          <li><img src="./img/works2.jpg" alt="work2"></li>
+          <li><img src="./img/works3.jpg" alt="work3"></li>
+          <li><img src="./img/works4.jpg" alt="work4"></li>
+          <li><img src="./img/works5.jpg" alt="work5"></li>
+          <li><img src="./img/works6.jpg" alt="work6"></li>
+          <li><img src="./img/works7.jpg" alt="work7"></li>
+          <li><img src="./img/works8.jpg" alt="work8"></li>
+          <li><img src="./img/works9.jpg" alt="work9"></li>
+        </ul>
+      </section>
+      <!-- History -->
+      <section id="Works" class="wrapper">
+        <h2 class="sec-title">Works</h2>
+        <dl>
+          <dt>2000/4</dt>
+          <dd>三菱UFJモルガン・スタンレー証券 営業</dd>
+          <dt>2003/1</dt>
+          <dd>野村インベスター・リレーションズ 経営企画</dd>
+          <dt>2005/2</dt>
+          <dd>ノバルティスファーマ 人事</dd>
+          <dt>2006/2</dt>
+          <dd>インタートレード 広報IR→システムエンジニア→新規事業→人事</dd>   
+        </dl>
+      </section>
+      <!-- Contact -->
+      <section id="contact" class="wrapper">
+        <h2 class="sec-title">Contact</h2>
+        <p>お問い合わせは以下のフォームから
+        </p>
+        <form action="#" method="post">
+          <dl>
+            <dt><label for="name">お名前</label></dt>
+            <dd><input type="text" id="name"></dd>
+            <dt><label for="email">メールアドレス</label></dt>
+            <dd><input type="email" id="email"></dd>
+            <dt><label for="name">内容</label></dt>
+            <dd><textarea id="content" cols="30" rows="10"></textarea></dd>
+          </dl>
+          <div class="button"><input type="submit" value="送信"></div>
+        </form>
+      </section>
+
+      <!-- Footer -->
+      <footer id="footer"></footer>
+    </picture>
+  </div>
+    </main>
+  </body>
+</html>
